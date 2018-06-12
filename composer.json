@@ -1,0 +1,9 @@
+{
+  "name": "jeyroik/sm-plugin-error-state",
+  "description": "Plugin for jeyroik StateMachine. Let to use error state - valid state but in invalid case.",
+  "autoload": {
+    "psr-4": {
+      "tratabor\\": "src/"
+    }
+  }
+}
