@@ -1,10 +1,10 @@
 <?php
-namespace tratabor\components\systems\states;
+namespace jeyroik\extas\components\systems\states;
 
 /**
  * Class StateError
  *
- * @package tratabor\components\systems\states
+ * @package jeyroik\extas\components\systems\states
  * @author Funcraft <me@funcraft.ru>
  */
 class StateError extends StateBasic
