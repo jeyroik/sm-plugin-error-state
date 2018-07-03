@@ -12,8 +12,10 @@ use jeyroik\extas\interfaces\systems\states\machines\plugins\IPluginStateBuildBe
  * @package jeyroik\extas\components\systems\states\plugins
  * @author Funcraft <me@funcraft.ru>
  */
-class PluginStateBuildErrorStateBefore extends Plugin implements IPluginStateBuildBefore
+class PluginStateBuildBeforeError extends Plugin implements IPluginStateBuildBefore
 {
+    public $preDefinedStage = IStateMachine::STAGE__STATE_BUILD_BEFORE;
+
     /**
      * @param IStateMachine $machine
      * @param array $stateConfig
