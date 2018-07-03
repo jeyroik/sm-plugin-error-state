@@ -1,0 +1,12 @@
+{
+  "title": "Error State",
+  "description": "Allow to operate invalid state as a state object",
+  "schema": "1.0",
+  "plugins": [
+    {
+      "class": "jeyroik\\extas\\components\\systems\\states\\plugins\\PluginStateBuildBeforeError",
+      "stage": "state.build.before"
+    }
+  ],
+  "extensions": []
+}
